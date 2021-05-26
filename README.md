@@ -1,1 +1,1 @@
-This is a meta-repository containing basic infrastructure and functionality for C++ projects.
+A collection of solutions to [Project Euler](https://projecteuler.net/) problems.
