@@ -47,10 +47,11 @@ unsigned fast_sum_of_multiples_of_3_and_5(unsigned n) {
 
 } // namespace
 
-TEST_CASE("1: Multiples of 3 and 5") {
+TEST_CASE("...1: Multiples of 3 and 5") {
+
+    //std::cout << "1: sum_of_multiples_of_3_and_5(1000): " << naive_sum_of_multiples_of_3_and_5(1000) << std::endl;
+
     CHECK(naive_sum_of_multiples_of_3_and_5(10) == 23);
     CHECK(fast_sum_of_multiples_of_3_and_5(10) == 23);
     CHECK(naive_sum_of_multiples_of_3_and_5(1000) == fast_sum_of_multiples_of_3_and_5(1000));
-
-    std::cout << "1: sum_of_multiples_of_3_and_5(1000): " << naive_sum_of_multiples_of_3_and_5(1000) << std::endl;
 }
